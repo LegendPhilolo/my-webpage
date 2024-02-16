@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--UTF-8 used to display wide range of characters -->
+        <meta charset="UTF-8">
+        <!--viewport- user's visible area, width=device-width follows the width of the device, initial scale- sets the webpage to be displayed at a 1 to 1 scale-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Philip's assignment</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form id="myForm">
+            <!-- Text Input for Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password">
+
+            <!-- Checkbox for Terms and Conditions -->
+            <div>
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the Terms and Conditions</label>
+            </div>
+
+            <!-- Radio Buttons for Gender -->
+            <fieldset>
+                <legend>Gender:</legend>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </fieldset>
+
+            <!-- Dropdown Menu for Country Selection -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select a country</option>
+                <option value="australia">Australia</a>
+                <option value="canada">Canada</a>
+                <option value="ke">Kenya</a>
+                <option value="uk">United Kingdom</a>
+                <option value="usa">United States</a>
+            </select>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+    </body>
+</html>
